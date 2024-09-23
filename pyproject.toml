@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sql alchemy for beginning"
+version = "1.0.0"
+description = "A simple way to start with ORM"
+authors = ["Khursheed Gaddi"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sqlalchemy = "^2.0.35"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
